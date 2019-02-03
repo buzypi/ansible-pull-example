@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: local
   tasks:
   - name: install git
     apt: pkg=git state=present
